@@ -1,0 +1,146 @@
+
+body {
+    margin: 0;
+    border: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+.headwrapper {
+    background-color: #c14f4f;
+    text-shadow: 1px 1px 2px black;
+    height: 500px;
+    color: white;
+    border-top: solid black 10px;
+    border-bottom: solid black 10px;
+}
+.logo {
+    position: fixed;
+    z-index: 1;
+    left: 110px;
+    top: 20px;
+}
+
+h1{
+    font: bolder 23px sans-serif;
+    text-align: center;
+    line-height: 15px;
+}
+.logo span {
+    font: bolder 10px sans-serif;
+}
+.navigation a{
+    color: white;
+    text-decoration: none
+}
+.navigation a:hover{
+    color: #000;
+}
+.navigation li{
+    display: inline;
+    list-style: none;
+}
+.navigation {
+    position: fixed;
+    z-index: 2;
+    right: 110px;
+    top: 20px;
+    }
+.slider {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 60%;
+    background-color: #383838;
+    text-align: center;
+    }
+.slider h2 {
+    font-size: 70px;
+    margin-top: 140px;
+ }
+.slider span {
+    font-size: 30px;
+}
+
+.sectionwrapper{
+    position: relative;
+    margin: 150px 0 0 0;
+    text-align: center;
+}
+section h3{
+    font-size: 30px;
+    text-shadow: 1px 1px 4px black;
+}
+button{
+    background-color: #d26363;
+    padding: 20px;
+    font: bold 20px sans-serif;
+    color: white;
+    border-radius: 70px;
+    border: #dedbd4 solid 10px;
+}
+table.info {
+    border-spacing: 100px 30px;
+}
+.info th {
+    border: solid 10px #e7e7e7;
+    height: 120px;
+}
+#th1{
+    background-color: #474747;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+#th2{
+    background-color: #d26462;
+    color: black;
+}
+#th3{
+    background-color: gray;
+    color: black;
+}
+
+.info td {
+    text-align: left;
+}
+.info td p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+.info td a {
+    text-decoration: none;
+    color: #d95959;
+    font-weight: bold;
+    text-align: right;
+    display: block;
+}
+.footerwrapper {
+    background: url("../img/background_footer.png");
+    color: white;
+    padding: 60px 30px 0 30px;
+    height: 150px;
+}
+.footertable th {
+    text-shadow: 1px 1px 4px black;
+    text-align: left;
+}
+.footertable td {
+    font-size: 15px;
+}
+
+
+/* Second page "Contacts" */
+
+.sectionwrapper_contacts {
+    padding: 100px 30% 30px;
+    background-color: white;
+}
+#send_mail {
+    font-size: 20px;
+    font-weight: bold;
+}
+.contacts img {
+    width: 200px;
+    height: 190px;
+
+}
